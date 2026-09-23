@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx --env-file .env watch src/http/server.ts"
+    "dev": "tsx watch --env-file .env src/http/server.ts",
+    "seed": "tsx --env-file .env src/db/seed.ts"
   },
   "keywords": [],
   "author": "",
@@ -19,8 +20,10 @@
   },
   "dependencies": {
     "@paralleldrive/cuid2": "github:paralleldrive/cuid2",
+    "dayjs": "^1.11.23",
     "drizzle-orm": "^0.45.3",
     "fastify": "^5.12.5",
+    "fastify-type-provider-zod": "^7.0.0",
     "postgres": "^3.4.9",
     "zod": "^4.6.5"
   }
