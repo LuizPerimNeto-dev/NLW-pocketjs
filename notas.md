@@ -71,3 +71,5 @@ FS (file system)
 
 ## NPX oque é?
 ele vem instalado com o node e é basicamente um atalho para executar sripts de bibliotecas instaladas
+
+## dentro de SQL não se pode deixar virgula sobrando
